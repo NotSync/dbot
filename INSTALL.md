@@ -7,7 +7,7 @@
 5. lalu install semua Npm dengan cara `npm install`
 6. Pemakaian botnya dengan cara `node index`
 
-### Glitch Penginstallan (Glitch)!
+### Tahap Penginstallan (Glitch)!
 1. Pertama git cloning ini dengan cara memasukan ke **Glitch -> New project -> Import From Github** masukan `https://github.com/Client-Developer-ID/command-handler.git`
 2. Bikinlah projek kamu private untuk pengamanan dengan cara **Project Option -> Make This Project Private**
 3. Ganti `.env_example` jadi `.env`
