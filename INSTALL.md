@@ -8,6 +8,7 @@
 6. Pemakaian botnya dengan cara `node index`
 
 ### Tahap Penginstallan (Glitch)!
+0. Kalau pengen simpel ke [REMIX.md](https://github.com/Client-Developer-ID/command-handler/blob/master/REMIX.md)
 1. Pertama git cloning ini dengan cara memasukan ke **Glitch -> New project -> Import From Github** masukan `https://github.com/Client-Developer-ID/command-handler.git`
 2. Bikinlah projek kamu private untuk pengamanan dengan cara **Project Option -> Make This Project Private**
 3. Ganti `.env_example` jadi `.env`
