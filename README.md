@@ -17,7 +17,7 @@ Buka [REMIX.md](https://github.com/Client-Developer-ID/command-handler/blob/mast
 5. Tambah paket NPM yang diperlukan di `package.json`                                                                       
 5. Lalu ketikan **refresh** di `terminal`
 7. **SELESAI!**
-### Cara Membuat Bot Online!
+### Penginstallan!
 
 Buka [INSTALL.md](https://github.com/Client-Developer-ID/command-handler/blob/master/INSTALL.md)                                                                                                                                                 
 Untuk pengaktifan bot **24 jam**, tonton videoku di **[sini](https://youtube.com/rayhantech)** atau **[disini](https://www.youtube.com/channel/UCV6c67PLrgc6CWNzFXiVQSA/)**
