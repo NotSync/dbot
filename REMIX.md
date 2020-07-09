@@ -1,4 +1,4 @@
-### Silakan untuk kalian yang ingin remix Project melalui glitch bisa pencet dibawah
+### Remix Project Melalui Glitch? Dibawah ini!
 
 <!-- Remix Button -->
 <a href="https://glitch.com/edit/?utm_content=project_cmd-handler&utm_source=remix_this&utm_medium=button&utm_campaign=glitchButton#!/remix/cmd-handler">
