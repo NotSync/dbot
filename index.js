@@ -5,18 +5,28 @@ require('dotenv').config()
 
 //UPTIME ROBOT (WEB)
 const { get } = require("snekfetch");
-const http = require("http");
-const express = require("express");
+const express = require('express');
+const http = require('http');
 const app = express();
 app.get("/", (request, response) => {
-  console.log("Pinging");
+  
   response.sendStatus(200);
 });
+
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://cmd-handler.glitch.me/`);
-}, 280000);
+  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+}, 2800);
+// we've started you off with Express,
+// but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
+// http://expressjs.com/en/starter/static-files.html
+app.use(express.static("public"));
+
+// http://expressjs.com/en/starter/basic-routing.html
+app.get("/", (request, response) => {
+  response.status(200).send("OK");
+});
 client.on("ready", async () => {
   console.log(`${client.user.username} is ready Created by rayhantech#4999!`);
   client.user.setActivity(`${config.prefix}help`, {type: "PLAYING"}); //UBAH PRESENCE/STATUS BOT DISINI
